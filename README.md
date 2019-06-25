@@ -13,4 +13,4 @@ To install the dependencies please run these commands
 ```
 pip install -r requirements.txt
 ```
-Then to start the bot portion of the application run the `start_bot.sh` file!
+Then to start the bot portion of the application run the `run_bot.sh` file!
