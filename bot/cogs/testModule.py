@@ -28,8 +28,7 @@ class CommonSpam(commands.Cog):
             await message.delete()
             channel = await message.author.create_dm()
             await channel.send("Please do not spam")
-        await self.bot.process_commands(message)
-
+        
     @commands.command()
     @checks.is_admin()
     async def commonspam(self, ctx, setting = None):
